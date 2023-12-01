@@ -2,18 +2,6 @@ import "./AboutMe.css";
 import React from "react";
 
 
-
-
-// return ( 
-
-
-//     <div className="Header">
-//         Welcome to my header
-//     </div>
-// ) 
-
-// }
-
 const slides = [
   {
     

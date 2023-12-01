@@ -1,16 +1,16 @@
 import AboutMe from './View/AboutMe';
 import './App.css';
-import Header from './Menu/Header';
+import { Route , Routes} from 'react-router-dom';
 
 function App() {
   return (
-    <div className="App">
-        <Header/>
-      <div> 
-      <AboutMe/>
-        My name is Yovana!
-      </div>
-      </div>
+   <>
+   <Routes>
+
+   <Route path= '/' element={<AboutMe/>}/>
+   
+   </Routes>
+   </>
   );
 }
 
