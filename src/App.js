@@ -1,10 +1,10 @@
-import Header from './View/Header.jsx';
+import AboutMe from './View/AboutMe';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <Header/>
+    <AboutMe/>
       <div>
         My name is yovana!
       </div>

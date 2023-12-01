@@ -1,4 +1,4 @@
-import "./Header.css";
+import "./AboutMe.css";
 import React from "react";
 
 
@@ -133,7 +133,7 @@ function Slide({ slide, offset }) {
   );
 }
 
-function Header() {
+function AboutMe() {
   const [state, dispatch] = React.useReducer(slidesReducer, initialState);
 
   return (
@@ -148,5 +148,5 @@ function Header() {
     </div>
   );
     }
-export default Header;
+export default AboutMe;
 
