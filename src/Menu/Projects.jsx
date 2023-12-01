@@ -2,7 +2,8 @@ import React from "react";
 
 
 
-function Portfolio () {
+function Projects () {
+    
 
 
 
@@ -12,9 +13,9 @@ function Portfolio () {
 
         <div>
 
-            <p>Portfolio</p>
+            <p>Projects</p>
         </div>
     )
 }
 
-export default Portfolio;
+export default Projects;

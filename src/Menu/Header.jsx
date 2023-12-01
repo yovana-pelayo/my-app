@@ -12,12 +12,9 @@ function Header () {
 
 <div className='header'> 
 
-    {/* <Switch>
-        <Router >
-
-            
-        </Router>
-    </Switch> */}
+<p>
+    Projects, contact and linked in
+</p>
     </div>
 
 
