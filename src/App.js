@@ -1,13 +1,10 @@
-import logo from './logo.svg';
+import Header from './View/Header.jsx';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-      
-      MY PORTFOLIO
-      </header>
+      <Header/>
       <div>
         My name is yovana!
       </div>
