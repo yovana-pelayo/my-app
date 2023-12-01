@@ -9,9 +9,7 @@ const Projects = () => {
        <div className="title">
           <h1>This is a project</h1>
        </div>
-       <button className="btn" onClick={() => navigate('order-summary')}>
-          Place Order
-       </button>
+      
     </div>
  );
 };

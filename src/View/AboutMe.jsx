@@ -127,7 +127,6 @@ function AboutMe() {
 
   return (
     <div>
-      <Header/>
     <div className="slides">
       <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
 
