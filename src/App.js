@@ -1,12 +1,14 @@
 import AboutMe from './View/AboutMe';
 import './App.css';
+import Header from './View/Header';
 
 function App() {
   return (
     <div className="App">
-      <div>
+        <Header/>
+      <div> 
       <AboutMe/>
-        My name is yovana!
+        My name is Yovana!
       </div>
       </div>
   );
