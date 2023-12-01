@@ -16,14 +16,22 @@ import React from "react";
 
 const slides = [
   {
-    title: "Sedona Arizona",
-    description: "Adventure is never far away",
+    
+    description: "Sedona Arizona",
    image: 
       "AZ.JPG"
   },
-  {
-   image: 
+  {   
+     description: "Seattle",
+       image: 
       "Seattle.JPG"
+  }, 
+  {
+image: "kayak.jpeg"
+  },
+  { image: "rainier.jpeg"}, 
+  { description: "I love cooking",
+  image: "foodie.jpeg"
   }
 ];
 
