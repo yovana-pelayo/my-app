@@ -4,11 +4,11 @@ import './App.css';
 function App() {
   return (
     <div className="App">
-    <AboutMe/>
       <div>
+      <AboutMe/>
         My name is yovana!
       </div>
-    </div>
+      </div>
   );
 }
 

@@ -30,9 +30,9 @@ const slides = [
 image: "kayak.jpeg"
   },
   { image: "rainier.jpeg"}, 
-  { description: "I love cooking",
-  image: "foodie.jpeg"
-  }
+  // { description: "I love cooking",
+  // image: "foodie.jpeg"
+  // }
 ];
 
 function useTilt(active) {
