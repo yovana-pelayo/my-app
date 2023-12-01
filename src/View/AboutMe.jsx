@@ -1,3 +1,4 @@
+import Header from "../Menu/Header";
 import "./AboutMe.css";
 import React from "react";
 
@@ -125,6 +126,8 @@ function AboutMe() {
   const [state, dispatch] = React.useReducer(slidesReducer, initialState);
 
   return (
+    <div>
+      <Header/>
     <div className="slides">
       <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
 
@@ -133,6 +136,7 @@ function AboutMe() {
         return <Slide slide={slide} offset={offset} key={i} />;
       })}
       <button onClick={() => dispatch({ type: "NEXT" })}>›</button>
+      </div>
     </div>
   );
     }
