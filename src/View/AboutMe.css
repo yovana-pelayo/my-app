@@ -76,7 +76,7 @@ body {
 
 .slide {
   transform-style: preserve-3d;
-  border: solid 1px red;
+  border: solid 1px rgb(28, 226, 21);
 
 &[data-active] {
    .slideContent > * {
@@ -107,7 +107,7 @@ body {
   transform-style: preserve-3d;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
-  text-shadow: 0 0.1rem 1rem #000;
+  text-shadow: 0 0.1rem 1rem #031508;
   opacity: 0;
 
   .slideSubtitle,

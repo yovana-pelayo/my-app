@@ -1,4 +1,6 @@
 import './Header.css';
+import LinkedIn from './LinkedIn';
+import Projects from './Projects';
 // import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 
@@ -12,9 +14,8 @@ function Header () {
 
 <div className='header'> 
 
-<p>
-    Projects, contact and linked in
-</p>
+<Projects/>
+<LinkedIn/>
     </div>
 
 
