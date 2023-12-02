@@ -1,12 +1,13 @@
 
-.header {
-}
+.header .header{
+
+    position: absolute;
+     height: 2vh;
+  } 
 
 
 ul{
     display: flex;
-    padding: 6px 10px;  
-
     list-style-type: none;
 }
 ul li {

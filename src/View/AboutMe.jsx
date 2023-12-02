@@ -1,4 +1,3 @@
-import Header from "../Menu/Header";
 import "./AboutMe.css";
 import React from "react";
 

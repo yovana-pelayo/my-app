@@ -11,13 +11,13 @@ function Header () {
 
 
     return (
-<div className='header'>
+<div className='header'> 
     <ul>
         <li>
       <Link to ='/'>Home</Link>
     </li>
     <li>
-        <Link to= '/projects' element={<Projects />}>Projects</Link>
+        <Link to= '/projects'>Projects</Link>
     </li>
 </ul>
  </div>
