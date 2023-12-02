@@ -11,8 +11,7 @@ function Header () {
 
 
     return (
-
-<nav>
+<div className='header'>
     <ul>
         <li>
       <Link to ='/'>Home</Link>
@@ -21,7 +20,8 @@ function Header () {
         <Link to= '/projects' element={<Projects />}>Projects</Link>
     </li>
 </ul>
-</nav>
+ </div>
+
     );
 }
 
