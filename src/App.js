@@ -1,17 +1,20 @@
-import logo from './logo.svg';
+import AboutMe from './View/AboutMe';
 import './App.css';
-
+import { Route , Routes} from 'react-router-dom';
+import Projects from './Menu/Projects';
+import Header from './Menu/Header';
+// import Bio from './View/Bio';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-      
-      MY PORTFOLIO
-      </header>
-      <div>
-        My name is yovana!
-      </div>
-    </div>
+    
+   <div className='App'>
+    <Header />
+  <Routes>
+   <Route path= '/' element={<AboutMe/>}/>
+   <Route path= '/projects' element={<Projects/>}/>
+   </Routes>
+   </div>
+   
   );
 }
 
