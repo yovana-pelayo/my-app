@@ -1,14 +1,14 @@
 import { Link } from 'react-router-dom';
 import './Header.css';
-// import Projects from './Projects';
 // import { BrowserRouter as Router, Switch } from "react-router-dom";
 
 
 
 
 
-function Header () {
+function Header () { 
 
+  
 
     return (
 <div className='header'> 

@@ -6,15 +6,15 @@ import Header from './Menu/Header';
 // import Bio from './View/Bio';
 function App() {
   return (
-   <>
-   <div>
+    
+   <div className='App'>
     <Header />
   <Routes>
    <Route path= '/' element={<AboutMe/>}/>
    <Route path= '/projects' element={<Projects/>}/>
    </Routes>
    </div>
-   </>
+   
   );
 }
 

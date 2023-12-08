@@ -1,5 +1,8 @@
 .App {
-  text-align: center;
+flex-direction: column;
+  justify-content: center; 
+  column-gap: 20px;
+
 }
 
 /* .header{
