@@ -1,16 +1,18 @@
 import React from "react";
-// import { useNavigate } from 'react-router-dom';
-import './AboutMe.css'
+import './AboutMe.css';
 import Pictures from "../View/Pictures";
 
 const AboutMe = () => {
-//  const navigate = useNavigate();
+
  return (
     <div className="container">
-       <div className="title">
-          <h1>This is a project</h1>
+       <div>
+      
+         {/* <p className="about">  Hi, I'm Yovana – a go-getter and problem-solver with a love for the outdoors. My passion for helping others and overcoming challenges drives me to make a difference every day.
+      </p> */}
           <Pictures/>
-       </div>
+
+  </div>
     </div>
 
  );

@@ -1,5 +1,4 @@
-/* .Header{
-    background-color: #0648ce;
+.Header{
     min-height: 20vh;
     display: flex;
     flex-direction: column;
@@ -8,7 +7,7 @@
     font-size: calc(10px + 2vmin);
     color: black;
   }
-   */
+  
    *,
 *::before,
 *::after {
@@ -94,7 +93,6 @@ body {
   background-repeat: no-repeat;
   transition: transform 0.5s ease-in-out;
   opacity: 0.7;
-
   display: grid;
   align-content: center;
 
