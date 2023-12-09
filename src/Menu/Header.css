@@ -2,6 +2,7 @@
 
 .header{
     display: flex;
+    justify-content: space-evenly;
     position:fixed;
     top: 10vh;
     width: 50vh;
@@ -14,4 +15,7 @@ a{ cursor: default;
 a:hover{
     
     color: hotpink;
+}
+h1 {
+    color: rgb(22, 219, 81);
 }

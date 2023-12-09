@@ -13,8 +13,8 @@ function Header () {
     <a className='home'>
       <Link to ='/'>Home</Link>
     </a>
-        <a className='projects'> 
-        <Link to= '/projects'>Projects</Link>
+        <a className='aboutMe'> 
+        <Link to= '/aboutme'>About Me</Link>
         </a>
 
  </div>
