@@ -1,6 +1,6 @@
-import { Link } from 'react-router-dom';
+import { Link } from 'react-router-dom'
 import './Header.css';
-// import { BrowserRouter as Router, Switch } from "react-router-dom";
+
 
 
 
