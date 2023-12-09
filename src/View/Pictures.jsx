@@ -15,12 +15,14 @@ const slides = [
       "Seattle.JPG"
   }, 
   {
+    description: "Clear Lake, OR",
 image: "kayak.jpeg"
   },
-  { image: "rainier.jpeg"}, 
-  // { description: "I love cooking",
-  // image: "foodie.jpeg"
-  // }
+  {     description: "Rainier",
+    image: "rainier.jpeg"}, 
+  { description: "I love cooking",
+  image: "foodie.jpeg"
+  }
 ];
 
 function useTilt(active) {
@@ -90,6 +92,7 @@ function Slide({ slide, offset }) {
   const ref = useTilt(active);
 
   return (
+
     <div
       ref={ref}
       className="slide"
@@ -98,26 +101,26 @@ function Slide({ slide, offset }) {
         "--offset": offset,
         "--dir": offset === 0 ? 0 : offset > 0 ? 1 : -1
       }}
-    >
+      >
       <div
         className="slideBackground"
         style={{
           backgroundImage: `url('${slide.image}')`
         }}
-      />
+        />
       <div
         className="slideContent"
         style={{
           backgroundImage: `url('${slide.image}')`
         }}
-      >
+        >
         <div className="slideContentInner">
           <h2 className="slideTitle">{slide.title}</h2>
           <h3 className="slideSubtitle">{slide.subtitle}</h3>
           <p className="slideDescription">{slide.description}</p>
         </div>
-      </div>
     </div>
+      </div>
   );
 }
 
@@ -126,23 +129,24 @@ function Pictures() {
 
   return (
   <div >
-    {/* <div className="aboutMe">
+  <div className="slides">
+    <div className="aboutMe">
       <h1>
       Hi, I'm Yovana – a go-getter and problem-solver with a love for the outdoors. My passion for helping others and overcoming challenges drives me to make a difference every day.
 
       </h1>
-    </div> */}
-  <div className="slides">
+    </div>
       <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
 
       {[...slides, ...slides, ...slides].map((slide, i) => {
         let offset = slides.length + (state.slideIndex - i);
         return <Slide slide={slide} offset={offset} key={i} />;
       })}
-      <button onClick={() => dispatch({ type: "NEXT" })}>›</button>
       </div>
+      <button onClick={() => dispatch({ type: "NEXT" })}>›</button>
     </div>
   );
     }
+ 
 export default Pictures;
 

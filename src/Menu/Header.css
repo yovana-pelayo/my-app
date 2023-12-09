@@ -1,6 +1,7 @@
 
 
 .header{
+    color: aqua;
     display: flex;
     justify-content: space-evenly;
     position:fixed;
