@@ -8,18 +8,15 @@ import './Header.css';
 
 function Header () { 
 
-  
-
     return (
 <div className='header'> 
-    <ul>
-        <li>
+    <a className='home'>
       <Link to ='/'>Home</Link>
-    </li>
-    <li>
-        <Link to= '/projects'>Projects</Link>
-    </li>
-</ul>
+    </a>
+        <a className='aboutMe'> 
+        <Link to= '/aboutme'>About Me</Link>
+        </a>
+
  </div>
 
     );
