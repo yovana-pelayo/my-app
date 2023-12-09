@@ -1,16 +1,17 @@
 
+
 .header{
-    background-color: aquamarine;
-    position: fixed;
-    top: 1vh;
-    width: 100vh;
+    display: flex;
+    position:fixed;
+    top: 10vh;
+    width: 50vh;
   } 
 
-
-ul{
-    display: flex;
-    list-style-type: none;
+a{ cursor: default;
+    text-decoration: none;
+    color: rgb(22, 219, 81)
 }
-ul li {
-    padding: 10px 18px;
-}   
+a:hover{
+    
+    color: hotpink;
+}
