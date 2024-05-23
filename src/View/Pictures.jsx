@@ -130,12 +130,6 @@ function Pictures() {
   return (
   <div >
   <div className="slides">
-    <div className="aboutMe">
-      <h1>
-      Hi, I'm Yovana – a go-getter and problem-solver with a love for the outdoors. My passion for helping others and overcoming challenges drives me to make a difference every day.
-
-      </h1>
-    </div>
       <button onClick={() => dispatch({ type: "PREV" })}>‹</button>
 
       {[...slides, ...slides, ...slides].map((slide, i) => {
