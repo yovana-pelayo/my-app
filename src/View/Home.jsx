@@ -1,3 +1,5 @@
+import Pictures from "./Pictures";
+
 function Home() {
 
 
@@ -6,10 +8,7 @@ function Home() {
 
         <div className="aboutMe">
         
-      <h1>
-      Hi
-
-      </h1>
+     <Pictures/>
         </div>
 );
     }
